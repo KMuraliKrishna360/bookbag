@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>user</title>
+</head>
+<style>
+    body{
+text-align:center;
+background-color:Thistle;
+}
+.con{
+height:350px;
+width:450px;
+background-color:white;
+margin-top:100px;
+margin-left:500px;
+text-align:center;
+border-radius:50px;
+box-shadow:20px 20px 20px 0;
+
+}
+.con img{
+width:100px;
+height:100px;
+}
+.con h4{
+color:blue;
+}
+
+</style>
+<body>
+
+      <h1>welcome {{name}}</h1>
+      <div class='con'>
+        <h3><u>Your Cart</u></h3>
+        <img src="https://tse1.mm.bing.net/th?id=OIP.S7b6f8rMY6sKGpE6zHm5QgHaHa&pid=Api&P=0&w=300&h=300">
+        <p>recently added</p>
+        <h4>Rice</h4>
+        <select>
+            <option>select</option>
+            <option onclick="cotton()">cotton</option>
+            <option onclick="rice()">rice</option>
+            <option onclick="mirchi()">mirchi</option>
+            <option onclick="maize()">maize</option>
+        </select>
+      </div>
+
+</body>
+<script>
+    function cotton(){
+      alert("hello")
+    }
+
+</script>
+</html>
